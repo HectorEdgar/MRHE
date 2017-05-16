@@ -3,7 +3,7 @@ applications:
 - disk_quota: 1024M
   buildpack: nodejs_buildpack
   host: helloNodeMRHE
-  name: helloWatsonToneDemo
+  name: helloWatsonToneDemoMRHE
   command: node server.js
   path: .
   domain: mybluemix.net
